@@ -4,7 +4,7 @@
 WITH_ENV = env `cat .env 2>/dev/null | xargs`
 DATE := `date '+%Y%m%d'`
 
-NAME:=gin
+NAME:=ymir
 ROOF:=$(NAME)
 TAG:=`git describe --tags --always`
 LDFLAGS:=-X $(ROOF)/settings.buildVersion=$(TAG)-$(DATE)

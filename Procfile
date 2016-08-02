@@ -1,1 +1,1 @@
-web: rerun -build gin http-listen localhost:34000
+web: rerun -build ymir http-listen localhost:34000

@@ -6,12 +6,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"gin/settings"
-	"gin/web/api"
+	"ymir/settings"
+	"ymir/web/api"
 )
 
 func Run() {
-	settings.Parse()
 	var (
 		router *gin.Engine
 	)
@@ -23,7 +22,7 @@ func Run() {
 		router = gin.New()
 	}
 
-	api.Strap(router)
+	api.Bluesprint(router)
 
 	// Start http server
 	fmt.Printf("listen http server %s %s on %s\n", settings.Name, settings.Version, settings.HttpListen)

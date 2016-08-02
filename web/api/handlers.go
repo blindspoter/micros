@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func Strap(router *gin.Engine) {
+func Bluesprint(router *gin.Engine) {
 	router.GET("/ping", handlerPing)
 }
 

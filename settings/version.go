@@ -1,6 +1,6 @@
 package settings
 
-const NAME = "gin"
+const NAME = "ymir"
 
 var buildVersion = "dev"
 

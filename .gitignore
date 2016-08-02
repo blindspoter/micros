@@ -28,5 +28,5 @@ _testmain.go
 
 .env
 dist/
-gin
+ymir
 *.tar.xz

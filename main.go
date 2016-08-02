@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gin/web"
+	"ymir/web"
 )
 
 func main() {
