@@ -16,6 +16,8 @@ main: vet
 deps:
 	go get github.com/gin-gonic/gin
 	go get github.com/golang/glog
+	go get github.com/golang/protobuf
+	go get google.golang.org/grpc
 
 vet:
 	echo "Checking ."
@@ -33,3 +35,9 @@ dist:
 
 package:
 	tar -cvJf $(NAME)-linux-amd64-$(TAG).tar.xz -C dist/linux_amd64 .
+
+rpc:
+	echo "Generating rpc server and client"
+	go get github.com/golang/protobuf/...
+	go get google.golang.org/grpc
+	protoc -I ../../../ -I rpc/proto --go_out=plugins=grpc:rpc/proto rpc/proto/*.proto

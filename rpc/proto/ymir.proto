@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package ymirpb;
+
+service YmirService {
+    // 根据用户ID获取用户名称
+    rpc GetUserNameById(UserRequest) returns (UserResponse) {}
+}
+
+message UserRequest {
+    int64 userId = 1;
+}
+
+message UserResponse {
+    int32 en = 1;
+    string name = 2;
+}
