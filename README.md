@@ -1,12 +1,35 @@
 YMIR
 ====
 
-# Web service example based on [gin](https://github.com/gin-gonic/gin) framework
+# microservice based on web framework of [gin](https://github.com/gin-gonic/gin)
 
 TODO:
 
-- [ ] 完善目录结构
-- [ ] 服务启动
-- [ ] 添加CI
-- [ ] 添加Dockerfile
+- [ ] Add RPC service
+- [ ] Service start
+- [ ] Add CI test
+- [ ] Add Dockerfile
+
+
+## install go
+
+````shell
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/your/go/code
+````
+
+### install dev tools
+
+````sh
+go get -u github.com/ddollar/forego
+go get -u github.com/ddollar/rerun
+````
+
+## start
+
+````sh
+forego start
+````
+
+
 
