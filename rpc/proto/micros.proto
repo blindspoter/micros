@@ -3,7 +3,6 @@ syntax = "proto3";
 package microspb;
 
 service MicrosService {
-    // 根据用户ID获取用户名称
     rpc GetUserNameById(UserRequest) returns (UserResponse) {}
 }
 

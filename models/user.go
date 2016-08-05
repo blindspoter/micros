@@ -16,20 +16,7 @@ func (this *User) String() string {
 	return fmt.Sprintf("<User name:%s>", this.Name)
 }
 
-func (this *User) GetUserNameById(int64 userId) string {
-	// for rpc test
-	name := "rpc server"
-	return name
-}
-
-func (this *User) Add() {
-	//TODO:
-}
-
-func (this *User) Get() {
-	//TODO:
-}
-
-func (this *User) Update() {
-	//TODO:
+func GetUserNameById(userId int64) (string, error) {
+	// for test
+	return "hello, you get me!", nil
 }
