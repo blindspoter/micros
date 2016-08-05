@@ -1,28 +1,37 @@
 MICROS
 ======
 
-# microservice based on web framework of [gin](https://github.com/gin-gonic/gin)
+micro-service startup based on web framework of [gin](https://github.com/gin-gonic/gin)
 
 
-## install go
+### Install go:
 
 ````shell
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/your/go/code
 ````
+for more [go install](https://golang.org/doc/install#install) help
 
-### install dev tools
+### Entry GOPATH ```src``` dir and clone:
+
+````sh
+git clone git@github.com:kevinchendev/micros.git
+````
+
+### Install tools:
 
 ````sh
 go get -u github.com/ddollar/forego
 go get -u github.com/ddollar/rerun
 ````
 
-## start
+### Start:
 
 ````sh
 forego start
 ````
+
+![image](http://7xr6xv.com1.z0.glb.clouddn.com/github/mircos/start.png)
 
 TODO:
 
