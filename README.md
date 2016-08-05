@@ -35,8 +35,8 @@ forego start
 
 TODO:
 
-- [ ] Add RPC service
-- [ ] Service start
+- [x] Add RPC service
+- [x] Service start
 - [ ] Add CI test
 - [ ] Add Dockerfile
 
