@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ymir/web"
+	"micros/web"
 )
 
 func main() {

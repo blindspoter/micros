@@ -1,14 +1,7 @@
-YMIR
-====
+MICROS
+======
 
 # microservice based on web framework of [gin](https://github.com/gin-gonic/gin)
-
-TODO:
-
-- [ ] Add RPC service
-- [ ] Service start
-- [ ] Add CI test
-- [ ] Add Dockerfile
 
 
 ## install go
@@ -30,6 +23,13 @@ go get -u github.com/ddollar/rerun
 ````sh
 forego start
 ````
+
+TODO:
+
+- [ ] Add RPC service
+- [ ] Service start
+- [ ] Add CI test
+- [ ] Add Dockerfile
 
 
 

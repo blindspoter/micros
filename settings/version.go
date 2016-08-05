@@ -1,6 +1,6 @@
 package settings
 
-const NAME = "ymir"
+const NAME = "micros"
 
 var buildVersion = "dev"
 

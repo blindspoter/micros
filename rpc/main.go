@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"ymir/rpc/server"
-	"ymir/settings"
+	"micros/rpc/server"
+	"micros/settings"
 )
 
 func main() {

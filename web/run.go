@@ -6,8 +6,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"ymir/settings"
-	"ymir/web/api"
+	"micros/settings"
+	"micros/web/api"
 )
 
 func Run() {
