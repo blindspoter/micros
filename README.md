@@ -12,7 +12,7 @@ export GOPATH=$HOME/your/go/code
 ````
 for more [go install](https://golang.org/doc/install#install) help
 
-### Entry GOPATH ```src``` dir and clone:
+### Entry ```GOPATH/src``` dir and clone:
 
 ````sh
 git clone git@github.com:kevinchendev/micros.git
@@ -31,7 +31,7 @@ go get -u github.com/ddollar/rerun
 forego start
 ````
 
-![image](http://7xr6xv.com1.z0.glb.clouddn.com/github/mircos/start.png)
+![image](http://i1.piimg.com/1949/6f0aadaf6d1de79f.png)
 
 TODO:
 
