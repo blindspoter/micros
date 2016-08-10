@@ -41,7 +41,7 @@ rpc:
 
 client:
 	echo "Building $@"
-	go get $(ROOF)/rpc/client
+	go get $(ROOF)/rpc/grpcclient
 .PHONY: client
 
 protoc-gen-go:

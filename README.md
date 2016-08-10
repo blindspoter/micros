@@ -10,7 +10,7 @@ micro-service startup based on web framework of [gin](https://github.com/gin-gon
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/your/go/code
 ````
-for more [go install](https://golang.org/doc/install#install) help
+for more help about [go install](https://golang.org/doc/install#install)
 
 ### Entry ```GOPATH/src``` dir and clone:
 
