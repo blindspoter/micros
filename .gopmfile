@@ -1,6 +1,5 @@
 [deps]
 github.com/gin-gonic/gin =
-github.com/gin-gonic/gin =
 github.com/golang/glog =
 github.com/golang/protobuf =
 google.golang.org/grpc =
