@@ -31,7 +31,7 @@ go get -u github.com/ddollar/rerun
 forego start
 ````
 
-![image](http://i1.piimg.com/1949/6f0aadaf6d1de79f.png)
+![image](http://7xr6xv.com1.z0.glb.clouddn.com/github/mircos/start.png)
 
 TODO:
 
