@@ -22,8 +22,9 @@ vet:
 clean:
 	echo "cleaning dist"
 	rm -rf dist
-	rm -f $(NAME)
-	rm -f $(NAME)-*.tar.xz
+	rm -rf $(NAME)
+	rm -rf $(NAME)-*.tar.xz
+	rm -rf grpcserver
 
 dist: clean
 	echo "building $(NAME)"

@@ -29,4 +29,5 @@ _testmain.go
 .env
 dist/
 micros
+grpcserver
 *.tar.xz
